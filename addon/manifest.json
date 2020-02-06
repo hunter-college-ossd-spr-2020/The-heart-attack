@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Playlist",
+  "version": "1.0",
+
+  "description": "Plays one of your favorite songs, and allows you to shuffle and play a different song, at the click of a button!",
+  "homepage_url": "https://github.com/hunter-college-ossd-spr-2020/firefox-addon-activity/blob/master/team_4.md",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "Playlist",
+    "default_popup": "popup/choose_beast.html"
+  },
+
+  "web_accessible_resources": [
+    "onedance.mp3",
+    "howtolove.mp3",
+  ]
+
+}

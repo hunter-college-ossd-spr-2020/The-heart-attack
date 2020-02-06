@@ -1,0 +1,32 @@
+html, body {
+    width: 275px; /* this essentially modifies the width of the button */
+  }
+  
+  .hidden {
+    display: none; 
+  }
+  /*  hides the warning message that occurs when you cant display.   */
+  
+  .button {
+    margin: 0% auto;
+    padding: 7px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline ;
+    font-style: italic;
+    cursor: pointer;
+  }
+  
+  .reset {
+    font-style: normal;
+    text-decoration: none ;
+    background-color: rgb(139, 195, 221);
+  }
+  /* The property of the lower button and its aesthetics. */
+  
+  .reset:hover {
+    font-style: normal;
+    text-decoration: none ;
+    background-color: rgb(68, 147, 184);
+  }
